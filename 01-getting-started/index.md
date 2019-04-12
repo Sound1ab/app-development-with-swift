@@ -2,19 +2,19 @@
 
 ## Defining a const 
 
-```
+```swift
 let name = "John"
 ```
 
 ## Defining a mutable variable
 
-```
+```swift
 var age = 29
 ```
 
 ## Defining a new Type
 
-```
+```swift
 struct Person {
   let firstName: String
   let lastName: String
@@ -29,13 +29,13 @@ struct Person {
 
 Use to separate a number as commas would
 
-```
+```swift
 let largePrettyNumber = 1_000_000_000
 ```
 
 ## Specify a Type
 
-```
+```swift
 let distance: Double = 1.234
 ```
 
@@ -45,13 +45,13 @@ When you use the division operator (/) on Int values, the result will be an Int 
 
 ## Converting between types
 
-```
+```swift
 let pi = Double(x) + y
 ```
 
 ## If statement
 
-```
+```swift
 if temperature >= 100 {
   print("The water is boiling.")
 }
@@ -59,7 +59,7 @@ if temperature >= 100 {
 
 ## If else statement
 
-```
+```swift
 if finishPosition == 1 {
   print("Congratulations, you won the gold medal!")
 } else if finishPosition == 2 {
@@ -71,7 +71,7 @@ if finishPosition == 1 {
 
 ## Switch statements
 
-```
+```swift
 if finishPosition == 1 {
   print("Congratulations, you won the gold medal!")
 } else if finishPosition == 2 {
@@ -83,7 +83,7 @@ if finishPosition == 1 {
 
 ### Multiple condition switch statement
 
-```
+```swift
 switch character {
 case "a", "e", "i", "o", "u" :
     print("This character is a vowel.")
@@ -94,7 +94,7 @@ default:
 
 ### Interval matching switch statement
 
-```
+```swift
 switch distance {
 case 0...9:
     print("Your destination is close.")
@@ -109,7 +109,7 @@ default:
 
 ## Ternary statement
 
-```
+```swift
 largest = a > b ? a : b
 ```
 
@@ -182,12 +182,12 @@ To reference visual elements from code, we link up the pieces using Outlets and 
 IBOutlets can be strong or weak. This refers to how they are held in memory. An object that has a strong reference to the outlet will never be destroyed. A weak reference means the outlet will be destroyed as soon as any strong references to it are removed.
 
 #### Strong
-```
+```swift
 @IBOutlet var centerButton: UIButton!
 ```
 
 #### Weak
-```
+```swift
 @IBOutlet weak var centerButton: UIButton!
 ```
 
@@ -207,7 +207,7 @@ To see how a view element connects to a view controller, select the element in i
 
 All views can be programmatically created inside a view controller instead of magically through interface builder.
 
-```
+```swift
 let label = UILabel(frame: CGRect(x: 16, y: 16, width: 200, height: 44))
 view.addSubview(label)
 ```

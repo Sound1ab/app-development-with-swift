@@ -6,7 +6,7 @@ Optionals are useful in situations when a value may or may not be present. An op
 
 They can be specified with a `?` after a variable declaration.
 
-```
+```swift
 struct Book {
   var name: String
   var publicationYear: Int?
@@ -15,7 +15,7 @@ struct Book {
 
 ### Safetly check an optional
 
-```
+```swift
 if let constantName = someOptional {
   //constantName has been safely unwrapped for use within the braces.
 }
@@ -23,7 +23,7 @@ if let constantName = someOptional {
 
 When unwrapping an optional it's common to shadow the original variable name with the new name
 
-```
+```swift
 func exclaim(name: String?) {
   if let name = name {
     // Inside the braces, `name` is the unwrapped `String` 
@@ -35,7 +35,7 @@ func exclaim(name: String?) {
 
 ### Optionals in function parameters
 
-```
+```swift
 func printFullName(firstName: String, middleName: String?, lastName: String) -> String? {
     
 }
@@ -45,7 +45,7 @@ func printFullName(firstName: String, middleName: String?, lastName: String) -> 
 
 Initializers in structs can return nil to prevent the creation of the struct.
 
-```
+```swift
 struct Toddler {
   var name: String
   var monthsOld: Int
@@ -65,7 +65,7 @@ struct Toddler {
 
 Some optionals can themselves contain optionals. To unwrap these easily we can use optional chaining.
 
-```
+```swift
 if let theApartmentNumber =
 person.residence?.address?.apartmentNumber {
   print("He/she lives in apartment number \
@@ -77,7 +77,7 @@ person.residence?.address?.apartmentNumber {
 
 If you know a value exists inside an optional you can unwrap it without using if let
 
-```
+```swift
 class ViewController: UIViewController {
   @IBOutlet weak var label: UILabel!
 }
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
 
 You can use the as? operator to try and downcast the value to a more specific type and store it in a new constant. This operation is known as a conditional cast, because it casts the instance to the specified type if it's possible to do so.
 
-```
+```swift
 let pets = allClientAnimals()
  
 for pet in pets {
@@ -103,7 +103,7 @@ if let dog = pet as? Dog {
 
 When you know that the returned object will be a more specific type, you can use the as! operator to cast the value immediately.
 
-```
+```swift
 let alansDog = fetchPet(for: "Alan") as! Dog
 ```
 
@@ -111,7 +111,7 @@ let alansDog = fetchPet(for: "Alan") as! Dog
 
 Swift provides two special types: Any and AnyObject. Any, as the name implies, can represent an instance of any type: strings, doubles, functions, or whatever. AnyObject can represent any class within Swift, but not a structure.
 
-```
+```swift
 var items: [Any] = [5, "Bill", 6.7, true]
 if let firstItem = items[0] as? Int {
   print(firstItem+4) //9
@@ -122,7 +122,7 @@ if let firstItem = items[0] as? Int {
 
 Provides a way of returning from a function early instead of using nested if-else statements or inverted if statements
 
-```
+```swift
 func singHappyBirthday() {
   guard birthdayIsToday else {
     print("No one has a birthday today.")
@@ -145,13 +145,13 @@ func singHappyBirthday() {
 
 It can also be used to bind the value within an optional to a constant that's accessible outside the braces.
 
-```
+```swift
 guard let eggs = goose.eggs else { return }
 //`eggs` is accessible hereafter 
 print("The goose laid \(eggs.count) eggs.")
 ```
 
-```
+```swift
 func processBook(title: String?, price: Double?, pages: Int?) {
   guard let theTitle = title, let thePrice = price, let 
   thePages = pages else { return }
@@ -163,7 +163,7 @@ func processBook(title: String?, price: Double?, pages: Int?) {
 
 An enumeration, or enum, is a special Swift type that allows you to represent a named set of options.
 
-```
+```swift
 enum CompassPoint {
   case north
   case east
@@ -172,7 +172,7 @@ enum CompassPoint {
 }
 ```
 
-```
+```swift
 var compassHeading = CompassPoint.west
 ```
 
