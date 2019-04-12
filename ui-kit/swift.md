@@ -163,6 +163,9 @@ You can initilize a variable with a default value by calling an initilizer on a 
 var string = String() // ""
 var integer = Int() // 0
 var bool = Bool() // false
+var myArray = [Int]() // []
+var myArray = [Int](repeating: 0, count: 100)
+var myDictionary = [String: Int]() // [:]
 ```
 
 If you want to perform custom logic when an instance property is being initialized a custom initializer can be added to a struct to define the instance properties
@@ -257,7 +260,7 @@ struct Odometer {
 }
 ```
 
-### Computed properties
+#### Computed properties
 
 Swift has a feature that allows a property to perform logic that returns a calculated value.
 
@@ -275,7 +278,7 @@ struct Temperature {
 }
 ```
 
-### Property observers
+#### Property observers
 
 Swift allows you to observe any property and respond to the changes in the property's value. These property observers are called every time a property's value is set, even if the new value is the same as the property's current value.
 
@@ -294,7 +297,7 @@ struct StepCounter {
 }
 ```
 
-### Type properties and methods
+#### Type properties and methods
 
 Swift also supports adding type properties and methods, which can be accessed or called on the type itself. Use the static keyword to add a property or method to a type.
 Type properties are useful when a property is related to the type, but not a characteristic of an instance itself.
@@ -307,11 +310,235 @@ struct Temperature {
 }
 ```
 
-### Value type
+#### Value type
 
 Structs are passed by value, as opposed to being passed by reference. This mean that when they are assigned to new variables or passed into functions, a copy of the struct is made and any changes to it won't be reflected in the original.
 
-### Shadowing
+#### Shadowing
 
 In a struct, it is unnecessary to use self when referring to an instance property or method of the struct. Although you can, shadowing means the compiler will understand that you are referring to a property owned by the struct. The only case where this is not true is inside an initializer, when parameters match the property names.
 
+### Classes
+
+Classes are very similar to structs. The difference is that classes are passed by reference and also have some additional features like inheritance. It is recommended to try and use structs over classes to avoid the pitfalls of brittle classes and subclasses. If you want to subclass structs, a protocol pattern can be used as opposed to inheritance.
+
+```
+class Person {
+  let name: String
+ 
+  init(name: String) {
+    self.name = name
+  }
+ 
+  func sayHello() {
+    print("Hello, there!")
+  }
+ }
+```
+
+Classes are defined in the say way as structs except replacing struct -> class. Also notice that there is no auto initializer for instance properties. Classes must have an init.
+
+#### Subclassing
+
+```
+class SomeSubclass: SomeSuperclass {
+    // subclass definition goes here
+}
+```
+
+#### Overriding superclass methods
+
+```
+class Train: Vehicle {
+    override func makeNoise() {
+        print("Choo Choo!")
+    }
+}
+```
+
+#### Overriding superclass instance properties
+
+```
+class Car: Vehicle {
+    var gear = 1
+    override var description: String {
+        return super.description + " in gear \(gear)"
+    }
+}
+```
+
+#### Overriding superclass initializer
+
+```
+class Student: Person {
+  var favoriteSubject: String
+ 
+  init(name: String, favoriteSubject: String) {
+    self.favoriteSubject = favoriteSubject
+    super.init(name: name)
+  }
+}
+```
+
+### Arrays
+
+```
+var numbers = [1, -3, 50, 72, -95, 115]
+```
+
+```
+let numbers: [Int8] = [1, -3, 50, 72, -95, 115]
+```
+
+```
+var myArray: Array<Int> = []
+```
+
+Unlike JavasScript, once you define an array a constant, you can't modify its internal values.
+
+#### Accessing array
+
+```
+let firstName = names[0]
+```
+
+#### Update array 
+
+```
+names[1] = "Paul"
+```
+
+#### Append to array
+
+```
+names.append("Joe")
+```
+
+```
+names += ["Keith", "Jane"]
+```
+
+#### Insert in array
+
+```
+names.insert("Bob", at: 0)
+```
+
+#### Remove from array
+
+```
+var names = ["Amy", "Brad", "Chelsea", "Dan"]
+let chelsea = names.remove(at:2)
+let dan = names.removeLast()
+names.removeAll()
+```
+
+#### Concatenating arrays
+
+```
+var myNewArray = firstArray + secondArray
+```
+
+### Dictionaries
+
+Same as JavaScript Sets.
+
+```
+[key1 : value1, key2: value2, key3: value3]
+```
+
+#### Adding to a set
+
+```
+scores["Oli"] = 399
+```
+
+#### Checking if a value exists before updating
+
+```
+let oldValue = scores.updateValue(100, forKey: "Richard") // will return nil if no value, the old value if there is one. But the value is still updated/added even if nil is returned
+```
+
+Swift uses if-let syntax to let you run code only if a value is returned from the method. If there wasn't an existing value, the code within the brackets won't be executed.
+
+```
+if let oldValue = scores.updateValue(100, forKey: "Richard") {
+  print("Richard's old value was \(oldValue)")
+}
+```
+
+#### Removing an item from a set
+
+```
+var scores = ["Richard": 100, "Luke": 400, "Cheryl": 800]
+scores["Richard"] = nil //["Luke": 400, "Cheryl": 800]
+```
+
+If you need access to the old value before removing it.
+
+```
+if let oldValue = scores.removeValue(forKey: "Luke") {
+  print("Luke's score was \(oldValue) before he stopped 
+  playing")
+}
+```
+
+#### Getting all keys or all values of a dictionary
+
+```
+var scores = ["Richard": 500, "Luke": 400, "Cheryl": 800]
+ 
+let players = Array(scores.keys) //["Richard", "Luke", "Cheryl"]
+let points = Array(scores.values) //[500, 400, 800]
+```
+
+#### Looking up a key in a dictionary
+
+```
+// If there's no key, code within the brackets won't run
+if let myScore = scores["Luke"] {
+  print(myScore)
+}
+```
+
+### Loops
+
+#### For in loop
+
+```
+for index in 1...5 {
+  print("This is number \(index)")
+}
+```
+
+```
+let names = ["Joseph", "Cathy", "Winston"]
+for name in names {
+  print("Hello \(name)")
+}
+```
+
+```
+for (index, letter) in "ABCD".characters.enumerated() {
+  print("\(index): \(letter)")
+}
+```
+
+```
+let vehicles = ["unicycle" : 1, "bicycle" : 2, "tricycle" : 3, 
+"quad bike" : 4] 
+for (vehicleName, wheelCount) in vehicles {
+  print("A \(vehicleName) has \(wheelCount) wheels")
+}
+```
+
+##### Breaking out of For in loop
+
+```
+for counter in -3...3 {
+  print(counter)
+  if counter == 0 {
+    break
+  }
+}
+```
