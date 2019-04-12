@@ -1,12 +1,12 @@
-## UIKit - swift
+# UIKit - swift
 
-### Strings
+## Strings
 
 ```
 let greeting = "Hello"
 ```
 
-#### Multiline 
+### Multiline 
 
 ```
 let joke = """
@@ -15,14 +15,14 @@ let joke = """
   """
 ```
 
-#### Escaping strings
+### Escaping strings
 
 ```
 let greeting = "It is traditional in programming to print
 \"Hello, world!\""
 ```
 
-#### Check if string is empty
+### Check if string is empty
 
 ```
 var myString = ""
@@ -32,14 +32,14 @@ if myString.isEmpty {
 }
 ```
 
-#### Character type
+### Character type
 
 ```
 let a = "a" //'a' is a String
 let b: Character = "b" //'b' is a Character
 ```
 
-#### Concatenation
+### Concatenation
 
 ```
 let string1 = "Hello"
@@ -53,7 +53,7 @@ myString = myString + ", world!" // "Hello, world!"
 myString += " Hello!" // "Hello, world! Hello!
 ```
 
-#### Interpolation
+### Interpolation
 
 ```
 let name = "Rick"
@@ -61,7 +61,7 @@ let age = 30
 print("\(name) is \(age) years old") //Rick is 30 years old
 ```
 
-### Functions
+## Functions
 
 ```
 function functionName (parameters) -> ReturnType {
@@ -69,7 +69,7 @@ function functionName (parameters) -> ReturnType {
 }
 ```
 
-#### Parameters
+### Parameters
 
 All function parameters are typed.
 
@@ -110,7 +110,7 @@ func sayHello(_ person: String, _ anotherPerson: String) {
 sayHello("Phill", "Laura")
 ```
 
-#### Default parameter values
+### Default parameter values
 
 Function parameters can have default values if nothing is passed in as an argument. In this case, the parameter must always be labelled.
 
@@ -124,7 +124,7 @@ func sayHello(to person: String = "Phill",and _ anotherPerson: String = "Laura")
 sayHello()
 ```
 
-#### Returning values
+### Returning values
 
 You always need to specify a return type when returning a value from a function.
 
@@ -135,7 +135,7 @@ func multiply(firstNumber: Int, secondNumber: Int) -> Int {
 }
 ```
 
-### Structures
+## Structures
 
 Structs are a way to define your own custom types (think of structs as classes in JavaScript).
 
@@ -155,7 +155,7 @@ let person = Person(name: "Jasmine")
 person.sayHello()
 ```
 
-#### Initilizers
+### Initilizers
 
 You can initilize a variable with a default value by calling an initilizer on a type
 
@@ -209,7 +209,7 @@ struct Person {
 
 ``` 
 
-#### Default values
+### Default values
 
 When initializing structs, all instance properties must be set. Default values can be used inside a struct to do this.
 
@@ -219,7 +219,7 @@ struct Odometer {
 }
 ```
 
-#### Instance methods
+### Instance methods
 
 Instance methods are functions that can be called on specific instances of a type. They provide ways to access and modify properties of the structure, and they add functionality that relates to the instance's purpose.
 
@@ -237,7 +237,7 @@ let someSize = Size(width: 10.0, height: 5.5)
 let area = someSize.area() // Area is assigned a value of 55.0
 ```
 
-#### Mutating methods
+### Mutating methods
 
 If you want to update an instance property from within a structs instance method, a mutating method must be used.
 
@@ -260,7 +260,7 @@ struct Odometer {
 }
 ```
 
-#### Computed properties
+### Computed properties
 
 Swift has a feature that allows a property to perform logic that returns a calculated value.
 
@@ -278,7 +278,7 @@ struct Temperature {
 }
 ```
 
-#### Property observers
+### Property observers
 
 Swift allows you to observe any property and respond to the changes in the property's value. These property observers are called every time a property's value is set, even if the new value is the same as the property's current value.
 
@@ -297,7 +297,7 @@ struct StepCounter {
 }
 ```
 
-#### Type properties and methods
+### Type properties and methods
 
 Swift also supports adding type properties and methods, which can be accessed or called on the type itself. Use the static keyword to add a property or method to a type.
 Type properties are useful when a property is related to the type, but not a characteristic of an instance itself.
@@ -310,15 +310,15 @@ struct Temperature {
 }
 ```
 
-#### Value type
+### Value type
 
 Structs are passed by value, as opposed to being passed by reference. This mean that when they are assigned to new variables or passed into functions, a copy of the struct is made and any changes to it won't be reflected in the original.
 
-#### Shadowing
+### Shadowing
 
 In a struct, it is unnecessary to use self when referring to an instance property or method of the struct. Although you can, shadowing means the compiler will understand that you are referring to a property owned by the struct. The only case where this is not true is inside an initializer, when parameters match the property names.
 
-### Classes
+## Classes
 
 Classes are very similar to structs. The difference is that classes are passed by reference and also have some additional features like inheritance. It is recommended to try and use structs over classes to avoid the pitfalls of brittle classes and subclasses. If you want to subclass structs, a protocol pattern can be used as opposed to inheritance.
 
@@ -338,7 +338,7 @@ class Person {
 
 Classes are defined in the say way as structs except replacing struct -> class. Also notice that there is no auto initializer for instance properties. Classes must have an init.
 
-#### Subclassing
+### Subclassing
 
 ```
 class SomeSubclass: SomeSuperclass {
@@ -346,7 +346,7 @@ class SomeSubclass: SomeSuperclass {
 }
 ```
 
-#### Overriding superclass methods
+### Overriding superclass methods
 
 ```
 class Train: Vehicle {
@@ -356,7 +356,7 @@ class Train: Vehicle {
 }
 ```
 
-#### Overriding superclass instance properties
+### Overriding superclass instance properties
 
 ```
 class Car: Vehicle {
@@ -367,7 +367,7 @@ class Car: Vehicle {
 }
 ```
 
-#### Overriding superclass initializer
+### Overriding superclass initializer
 
 ```
 class Student: Person {
@@ -380,7 +380,7 @@ class Student: Person {
 }
 ```
 
-### Arrays
+## Arrays
 
 ```
 var numbers = [1, -3, 50, 72, -95, 115]
@@ -396,19 +396,19 @@ var myArray: Array<Int> = []
 
 Unlike JavasScript, once you define an array a constant, you can't modify its internal values.
 
-#### Accessing array
+### Accessing array
 
 ```
 let firstName = names[0]
 ```
 
-#### Update array 
+### Update array 
 
 ```
 names[1] = "Paul"
 ```
 
-#### Append to array
+### Append to array
 
 ```
 names.append("Joe")
@@ -418,13 +418,13 @@ names.append("Joe")
 names += ["Keith", "Jane"]
 ```
 
-#### Insert in array
+### Insert in array
 
 ```
 names.insert("Bob", at: 0)
 ```
 
-#### Remove from array
+### Remove from array
 
 ```
 var names = ["Amy", "Brad", "Chelsea", "Dan"]
@@ -433,13 +433,13 @@ let dan = names.removeLast()
 names.removeAll()
 ```
 
-#### Concatenating arrays
+### Concatenating arrays
 
 ```
 var myNewArray = firstArray + secondArray
 ```
 
-### Dictionaries
+## Dictionaries
 
 Same as JavaScript Sets.
 
@@ -447,13 +447,13 @@ Same as JavaScript Sets.
 [key1 : value1, key2: value2, key3: value3]
 ```
 
-#### Adding to a set
+### Adding to a set
 
 ```
 scores["Oli"] = 399
 ```
 
-#### Checking if a value exists before updating
+### Checking if a value exists before updating
 
 ```
 let oldValue = scores.updateValue(100, forKey: "Richard") // will return nil if no value, the old value if there is one. But the value is still updated/added even if nil is returned
@@ -467,7 +467,7 @@ if let oldValue = scores.updateValue(100, forKey: "Richard") {
 }
 ```
 
-#### Removing an item from a set
+### Removing an item from a set
 
 ```
 var scores = ["Richard": 100, "Luke": 400, "Cheryl": 800]
@@ -483,7 +483,7 @@ if let oldValue = scores.removeValue(forKey: "Luke") {
 }
 ```
 
-#### Getting all keys or all values of a dictionary
+### Getting all keys or all values of a dictionary
 
 ```
 var scores = ["Richard": 500, "Luke": 400, "Cheryl": 800]
@@ -492,7 +492,7 @@ let players = Array(scores.keys) //["Richard", "Luke", "Cheryl"]
 let points = Array(scores.values) //[500, 400, 800]
 ```
 
-#### Looking up a key in a dictionary
+### Looking up a key in a dictionary
 
 ```
 // If there's no key, code within the brackets won't run
@@ -501,9 +501,9 @@ if let myScore = scores["Luke"] {
 }
 ```
 
-### Loops
+## Loops
 
-#### For in loop
+### For in loop
 
 ```
 for index in 1...5 {
@@ -532,7 +532,7 @@ for (vehicleName, wheelCount) in vehicles {
 }
 ```
 
-##### Breaking out of For in loop
+#### Breaking out of For in loop
 
 ```
 for counter in -3...3 {
