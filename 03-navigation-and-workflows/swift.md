@@ -176,6 +176,6 @@ enum CompassPoint {
 var compassHeading = CompassPoint.west
 ```
 
-```
+```swift
 var compassHeading: CompassPoint = .west
 ```
