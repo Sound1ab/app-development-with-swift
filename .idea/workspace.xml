@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd25ccb8-976a-45b1-afe3-539c248babd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-work-with-web/swift.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-tables-and-persistence/swift.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-tables-and-persistence/swift.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ui-kit/sdk.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-ui-kit/sdk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-work-with-web/swift.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-work-with-web/swift.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,12 +31,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-work-with-web/swift.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="95">
+                <caret line="4" column="153" selection-start-line="4" selection-start-column="153" selection-end-line="4" selection-end-column="153" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02-ui-kit/sdk.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="570">
+                <caret line="26" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,12 +74,12 @@
         <option value="$PROJECT_DIR$/ui-kit/index.md" />
         <option value="$PROJECT_DIR$/ui-kit/sdk.md" />
         <option value="$PROJECT_DIR$/ui-kit/swift.md" />
-        <option value="$PROJECT_DIR$/02-ui-kit/sdk.md" />
         <option value="$PROJECT_DIR$/03-navigation-and-workflows/swift.md" />
         <option value="$PROJECT_DIR$/02-ui-kit/swift.md" />
         <option value="$PROJECT_DIR$/01-getting-started/index.md" />
         <option value="$PROJECT_DIR$/03-tables-and-persistence/swift.md" />
         <option value="$PROJECT_DIR$/04-work-with-web/swift.md" />
+        <option value="$PROJECT_DIR$/02-ui-kit/sdk.md" />
       </list>
     </option>
   </component>
@@ -93,12 +104,12 @@
             <path>
               <item name="notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="03-tables-and-persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ui-kit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="04-work-with-web" type="462c0819:PsiDirectoryNode" />
+              <item name="03-tables-and-persistence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,12 +156,12 @@
       <updated>1554914905228</updated>
       <workItem from="1554914906727" duration="247000" />
       <workItem from="1554969394814" duration="7392000" />
-      <workItem from="1555056114568" duration="6227000" />
+      <workItem from="1555056114568" duration="8082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13866000" />
+    <option name="totallyTimeSpent" value="15721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -182,16 +193,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ui-kit/index.md" />
-    <entry file="file://$PROJECT_DIR$/02-ui-kit/sdk.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-getting-started/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -245,8 +246,18 @@
     <entry file="file://$PROJECT_DIR$/04-work-with-web/swift.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <first_editor relative-caret-position="95">
+            <caret line="4" column="153" selection-start-line="4" selection-start-column="153" selection-end-line="4" selection-end-column="153" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ui-kit/sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="570">
+            <caret line="26" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor />
         </state>
