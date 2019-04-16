@@ -113,3 +113,68 @@ Can be added either in the attributes inspector or programmatically.
 ```swift
 tabBarItem.badgeValue = "!"
 ```
+
+## View controller lifecycle
+
+![](images/view-lifecycle.png)
+
+Always call the superclass equivalent method inside the lifecycle method first and make sure to use keyword `override` e.g.
+
+```swift
+override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    // Add your code here
+}
+```
+
+### View Did Load
+
+```swift
+viewDidLoad(_:)
+```
+
+* Work only performed one time
+* Updating a label's font, text, or color
+
+### View Will Appear
+
+```swift
+viewWillAppear(_:)
+```
+
+* Requesting users location
+* Starting network requests
+* Refreshing or updating views (such as the status bar, navigation bar, or table views)
+* Adjusting to new screen orientations
+
+### View Did Appear
+
+```swift
+viewDidAppear(_:)
+```
+
+* Work that needs to be performed each time the view appears\
+* Starting an animation
+* Long running tasks e.g. fetching data
+
+### View Will Disappear
+
+```swift
+viewWillDisappear(_:)
+```
+
+* Saving edits
+* Hiding keyboard
+* Canceling network requests
+
+### View Did Disappear
+
+```swift
+viewDidDisappear(_:)
+```
+
+* Stop services related to view e.g. playing audio
+* Removing notification observers
+
+
+
