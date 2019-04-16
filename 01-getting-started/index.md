@@ -143,7 +143,7 @@ Within this Storyboard, move the floating arrow to define the starting screen.
 
 ### Document outline view
 
-![](./document-outline-view.png)
+![](images/document-outline-view.png)
 
 The Document Outline displays a list of each view controller in the scene, along with a hierarchical list of the elements within each view controller
 
@@ -151,25 +151,25 @@ The Document Outline displays a list of each view controller in the scene, along
 
 #### Identity inspector
 
-![](./identity-inspector.png)
+![](images/identity-inspector.png)
 
 Allows you to edit the properties related to an object's identity, such as what class it belongs to
 
 #### Attributes inspector
 
-![](./attributes-inspector.png)
+![](images/attributes-inspector.png)
 
 Provides a list of adjustable visual properties for the selected item
 
 #### Size inspector
 
-![](./size-inspector.png)
+![](images/size-inspector.png)
 
 Allows you to adjust the size and position of the selected element within the scene. You'll use the X and Y fields—where the top left of the screen corresponds to (0,0)—to change the position
 
 #### Connections inspector
 
-![](./connections-inspector.png)
+![](images/connections-inspector.png)
 
 The Connections inspector  lists all the functions and variable names related to the object
 

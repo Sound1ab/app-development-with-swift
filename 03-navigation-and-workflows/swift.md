@@ -13,7 +13,7 @@ struct Book {
 }
 ```
 
-### Safetly check an optional
+### Safely check an optional
 
 ```swift
 if let constantName = someOptional {
