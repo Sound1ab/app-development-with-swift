@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd25ccb8-976a-45b1-afe3-539c248babd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-navigation-and-workflows/sdk.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-tables-and-persistence/sdk.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-getting-started/attributes-inspector.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-getting-started/images/attributes-inspector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-getting-started/connections-inspector.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-getting-started/images/connections-inspector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-getting-started/document-outline-view.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-getting-started/images/document-outline-view.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-getting-started/identity-inspector.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-getting-started/images/identity-inspector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-getting-started/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-getting-started/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-getting-started/size-inspector.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-getting-started/images/size-inspector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/bar-button-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/bar-button-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/bar-button-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/bar-button-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/initial-view-controller.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/initial-view-controller.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/large-titles.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/large-titles.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/navigation-cointroller.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/navigation-cointroller.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/navigation-item-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/navigation-item-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/navigation-item-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/navigation-item-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/programmatic-segues-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/programmatic-segues-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/programmatic-segues-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/programmatic-segues-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/seques.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/seques.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/tabbar-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/tabbar-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/tabbar-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/tabbar-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/tabbar-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/tabbar-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/tabbar-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/tabbar-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/unwind-segue.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/unwind-segue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/images/view-lifecycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-navigation-and-workflows/images/view-lifecycle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ui-kit/sdk.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-ui-kit/sdk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-tables-and-persistence/sdk.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-tables-and-persistence/sdk.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/03-tables-and-persistence/swift.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="286">
+              <first_editor relative-caret-position="988">
                 <caret line="52" selection-start-line="52" selection-end-line="52" />
               </first_editor>
               <second_editor />
@@ -71,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/03-navigation-and-workflows/sdk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3343">
+              <first_editor>
                 <caret selection-end-column="33" />
               </first_editor>
               <second_editor />
@@ -83,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/02-ui-kit/sdk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
+              <first_editor relative-caret-position="247">
                 <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               </first_editor>
               <second_editor />
@@ -91,48 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-tables-and-persistence/sdk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="514">
-                <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-getting-started/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-ui-kit/swift.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-22">
-                <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-navigation-and-workflows/swift.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <first_editor relative-caret-position="609">
+                <caret line="200" selection-start-line="200" selection-end-line="200" />
               </first_editor>
               <second_editor />
             </state>
@@ -162,13 +102,13 @@
         <option value="$PROJECT_DIR$/ui-kit/index.md" />
         <option value="$PROJECT_DIR$/ui-kit/sdk.md" />
         <option value="$PROJECT_DIR$/ui-kit/swift.md" />
-        <option value="$PROJECT_DIR$/03-navigation-and-workflows/swift.md" />
         <option value="$PROJECT_DIR$/02-ui-kit/swift.md" />
         <option value="$PROJECT_DIR$/03-tables-and-persistence/swift.md" />
         <option value="$PROJECT_DIR$/04-work-with-web/swift.md" />
         <option value="$PROJECT_DIR$/03-navigation-and-workflows/sdk.md" />
         <option value="$PROJECT_DIR$/01-getting-started/index.md" />
         <option value="$PROJECT_DIR$/02-ui-kit/sdk.md" />
+        <option value="$PROJECT_DIR$/03-navigation-and-workflows/swift.md" />
         <option value="$PROJECT_DIR$/03-tables-and-persistence/sdk.md" />
       </list>
     </option>
@@ -264,12 +204,14 @@
       <workItem from="1554969394814" duration="7392000" />
       <workItem from="1555056114568" duration="8082000" />
       <workItem from="1555319087063" duration="4105000" />
-      <workItem from="1555401931590" duration="6542000" />
+      <workItem from="1555401931590" duration="6709000" />
+      <workItem from="1555436357516" duration="88000" />
+      <workItem from="1555485562647" duration="2652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26368000" />
+    <option name="totallyTimeSpent" value="29275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -311,6 +253,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-tables-and-persistence/swift.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="988">
+            <caret line="52" selection-start-line="52" selection-end-line="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04-work-with-web/swift.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -321,21 +273,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-tables-and-persistence/swift.md">
+    <entry file="file://$PROJECT_DIR$/03-navigation-and-workflows/sdk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
-            <caret line="52" selection-start-line="52" selection-end-line="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-getting-started/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <first_editor>
+            <caret selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
@@ -344,38 +286,8 @@
     <entry file="file://$PROJECT_DIR$/02-ui-kit/sdk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
+          <first_editor relative-caret-position="247">
             <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-navigation-and-workflows/sdk.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3343">
-            <caret selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-tables-and-persistence/sdk.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="514">
-            <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-ui-kit/swift.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-22">
-            <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -384,8 +296,38 @@
     <entry file="file://$PROJECT_DIR$/03-navigation-and-workflows/swift.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <first_editor relative-caret-position="110">
+            <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ui-kit/swift.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-getting-started/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="595">
+            <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-tables-and-persistence/sdk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="609">
+            <caret line="200" selection-start-line="200" selection-end-line="200" />
           </first_editor>
           <second_editor />
         </state>
